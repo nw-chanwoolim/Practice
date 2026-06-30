@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
 using TMPro;
-using Practice.Play;
+using Practice.Game;
+using Practice.Common;
 
 namespace Practice.UI
 {

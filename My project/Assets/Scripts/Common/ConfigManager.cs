@@ -3,8 +3,9 @@ using UnityEngine;
 using Practice.Base;
 using Practice.Data;
 using Practice.Event;
+using Practice.Game;
 
-namespace Practice.Play
+namespace Practice.Common
 {
     public class ConfigManager : ManagerBase<ConfigManager>
     {

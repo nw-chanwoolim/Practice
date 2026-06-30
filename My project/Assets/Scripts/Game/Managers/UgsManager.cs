@@ -5,7 +5,7 @@ using Unity.Services.Authentication;
 using System;
 using System.Threading.Tasks;
 
-namespace Practice.Play
+namespace Practice.Game
 {
     public class UgsManager : ManagerBase<UgsManager>
     {

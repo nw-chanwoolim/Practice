@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-using Practice.Play;
+using Practice.Game;
 
 namespace Practice.Event
 {

@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
+using Practice.Base;
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
-using Practice.Base;
 
-namespace Practice.Play
+namespace Practice.Game
 {
     public class LocalizationManager : ManagerBase<LocalizationManager>
     {
@@ -98,4 +98,4 @@ namespace Practice.Play
         }
     }
 }
-    
+

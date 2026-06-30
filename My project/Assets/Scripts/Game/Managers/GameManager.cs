@@ -1,9 +1,9 @@
 using UnityEngine;
 using Practice.Base;
-using UnityEditor.VersionControl;
-using UnityEngine.SocialPlatforms;
+using Practice.UI;
+using Practice.Common;
 
-namespace Practice.Play
+namespace Practice.Game
 {   
 public class GameManager : ManagerBase<GameManager>
 {

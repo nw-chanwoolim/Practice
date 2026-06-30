@@ -1,5 +1,5 @@
 using UnityEngine;
-using Practice.Play;
+using Practice.Game;
 
 namespace Practice.Data
 {   

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Practice.Play;
+using Practice.Game;
 
 namespace Practice.Event
 {
