@@ -1,0 +1,5 @@
+/Users/NWaple/git/Practice/My project/.utmp/RelWithDebInfo/4mtu1b4p/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/NWaple/git/Practice/My project/.utmp/RelWithDebInfo/4mtu1b4p/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/NWaple/git/Practice/My project/.utmp/RelWithDebInfo/4mtu1b4p/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/NWaple/git/Practice/My project/.utmp/RelWithDebInfo/4mtu1b4p/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/NWaple/git/Practice/My project/.utmp/RelWithDebInfo/4mtu1b4p/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

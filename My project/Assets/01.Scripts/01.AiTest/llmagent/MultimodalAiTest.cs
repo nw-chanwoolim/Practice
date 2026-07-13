@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections;
 using System.IO;
@@ -204,7 +205,22 @@ public class MultimodalAiTest : MonoBehaviour
             serverProcess.ErrorDataReceived += (sender, args) =>
             {
                 if (!string.IsNullOrEmpty(args.Data))
-                    Debug.LogWarning($"[LlamaServer Err] {args.Data}");
+                {
+                    // Route to appropriate log severity based on content keywords
+                    if (args.Data.Contains("error") || args.Data.Contains("ERR") || args.Data.Contains("failed") || args.Data.Contains("FAIL"))
+                    {
+                        Debug.LogError($"[LlamaServer Err] {args.Data}");
+                    }
+                    else if (args.Data.Contains("warning") || args.Data.Contains("WRN") || args.Data.Contains("bug in the model"))
+                    {
+                        Debug.LogWarning($"[LlamaServer Wrn] {args.Data}");
+                    }
+                    else
+                    {
+                        // llama-server sends all routine startup updates/info to stderr. We route them to normal Debug.Log.
+                        Debug.Log($"[LlamaServer Log] {args.Data}");
+                    }
+                }
             };
 
             serverProcess.Start();
@@ -552,3 +568,4 @@ public class MultimodalAiTest : MonoBehaviour
         StopLlamaServer();
     }
 }
+*/
